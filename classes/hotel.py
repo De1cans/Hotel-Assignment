@@ -8,3 +8,6 @@ class Hotel():
 
     def get_floors(self):
         return self.floors
+
+    def get_rooms(self):
+        return self.rooms

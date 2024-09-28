@@ -1,6 +1,6 @@
-# from classes.floors import first_floor, second_floor, third_floor
+class Room():
+    def __init__(self,id):
+        self.id = id
 
-# class room():
-#     def __init__(self, room_number, floor_number):
-#         self.room_number = room_number
-#         self.floor_number = 
+    def get_id(self):
+        return self.id

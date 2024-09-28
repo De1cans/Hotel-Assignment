@@ -1,4 +1,5 @@
 from classes.floors import Floor
+from classes.rooms import Room
 
 def add_floor(hotel):
     floor_id = input("Enter the id number for the new floor: ")
@@ -12,5 +13,5 @@ def list_floors(hotel):
     if not all_floors:
         print("No floors found.")
     for floor in all_floors:
-        print(floor)
+        print(floor.id)
     print("\n")
