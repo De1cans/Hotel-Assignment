@@ -1,5 +1,5 @@
-from classes.hotel import hotel
-from classes.floors import floors
+from classes.hotel import Hotel
+from functions.hotel_functions import add_floor
 
 print("\n------------------------")
 print("Welcome To The My Hotel!")
@@ -18,11 +18,13 @@ def hotel_menu():
 
 choice = ""
 
+hotel = Hotel("hotell")
+
 while choice != "5":
     choice = hotel_menu()
 
     if choice == "1":
-        print("You've entered 1")
+        add_floor(hotel)
     elif choice == "2":
         print("You've entered 2")
     elif choice == "3":
