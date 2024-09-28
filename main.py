@@ -1,3 +1,6 @@
+from classes.hotel import hotel
+from classes.floors import floors
+
 print("\n------------------------")
 print("Welcome To The My Hotel!")
 print("------------------------\n")
