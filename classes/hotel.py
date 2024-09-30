@@ -11,3 +11,5 @@ class Hotel():
 
     def get_rooms(self):
         return self.rooms
+
+    

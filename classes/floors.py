@@ -1,6 +1,14 @@
 class Floor():
     def __init__(self, id):
         self.id = id
+        self.room = None
+
+    def add_room(self, room):
+        if self.room:
+            return False
+        else:
+            self.room = room
+            return true
 
     def get_id(self):
         return self.id
